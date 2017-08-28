@@ -1,9 +1,14 @@
-temp = open("arquivo.txt", "w")
-temp.write(input("Digite algum texto: "))
+temp = open('arquivo.txt', 'w')
+temp.write(input("Digite algo"))
 temp.close()
 
-temp2 = open("arquivo.txt","r")
+temp = open('arquivo.txt', 'r')
+texto = temp.read()
+temp.close()
 
-print(temp2.readlines())
+arquivo2 = open('copia.txt', 'w')
+arquivo2.write(texto)
+arquivo2.close()
 
-temp2.close()
+
+
