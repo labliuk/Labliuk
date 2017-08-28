@@ -1,6 +1,6 @@
 lista = []
 
-for i in range(0,10):
+for i in range(0,30):
         a = int(input("Digite um numero: "))
         lista.append(a)
 
