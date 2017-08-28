@@ -1,7 +1,7 @@
 num = int(input("Digite um numero: "))
 
 if num < 0:
-  num2
+  print ('O Modulo é: ',num * -1)
 
 elif num > 10:
   num2 = int(input("Digite outro numero: "))
